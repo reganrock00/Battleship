@@ -2,19 +2,19 @@
 
 public class BSL
 	{
-		private String Str1;
+		private String[][] createBoard;
 		
-		private int place1;
-		
-		
+		private String[][] showBoard;
 		
 		
 		
 		
-		public BSL (String Str1, int place1)
+		
+		
+		public BSL (String[][] createBoard, String[][] showBoard)
 			{
-				this.Str1 = Str1;
-				this.place1 = place1;
+				this.createBoard = createBoard;
+				this.showBoard = showBoard;
 				
 			}
 
@@ -23,49 +23,35 @@ public class BSL
 
 
 
-		public String getStr1()
-			{
-				return Str1;
-			}
+		public String[][] getCreateBoard() {
+			return createBoard;
+		}
 
 
 
 
 
 
-		public void setStr1(String str1)
-			{
-				Str1 = str1;
-			}
+		public void setCreateBoard(String[][] createBoard) {
+			this.createBoard = createBoard;
+		}
 
 
 
 
 
 
-		public int getPlace1()
-			{
-				return place1;
-			}
+		public String[][] getShowBoard() {
+			return showBoard;
+		}
 
 
 
 
 
 
-		public void setPlace1(int place1)
-			{
-				this.place1 = place1;
-			}
+		public void setShowBoard(String[][] showBoard) {
+			this.showBoard = showBoard;
+		}
 
-
-
-
-
-			
-	
-	}
-		
-		
-	
-	
+}
