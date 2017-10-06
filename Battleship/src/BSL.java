@@ -7,51 +7,29 @@ public class BSL
 		private String[][] showBoard;
 		
 		
-		
-		
-		
-		
 		public BSL (String[][] createBoard, String[][] showBoard)
 			{
 				this.createBoard = createBoard;
-				this.showBoard = showBoard;
-				
+				this.showBoard = showBoard;				
 			}
 
-
-
-
-
-
-		public String[][] getCreateBoard() {
+		public String[][] getCreateBoard() 
+			{
 			return createBoard;
-		}
+			}
 
-
-
-
-
-
-		public void setCreateBoard(String[][] createBoard) {
+		public void setCreateBoard(String[][] createBoard)
+			{
 			this.createBoard = createBoard;
-		}
+			}
 
-
-
-
-
-
-		public String[][] getShowBoard() {
+		public String[][] getShowBoard() 
+			{
 			return showBoard;
-		}
+			}
 
-
-
-
-
-
-		public void setShowBoard(String[][] showBoard) {
+		public void setShowBoard(String[][] showBoard) 
+			{
 			this.showBoard = showBoard;
-		}
-
+			}
 }
